@@ -1,0 +1,6 @@
+= simple_form_for(@post, html: {class: 'form-horizontal,col-md-4'}) do |f|
+ = f.input :title, label: 'Your title'
+ = f.input :content, label: 'Your Post'
+ = f.input :company, label: 'Company name'
+ %br/
+ = f.button :submit, class: 'btn btn-info'
