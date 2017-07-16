@@ -7,7 +7,7 @@
 # Ignore bundler config.
 /.bundle
 
-.gitignore # Ignore the hand that feeds!
+/.gitignore # Ignore the hand that feeds!
 
 
 # Ignore the default SQLite database.
