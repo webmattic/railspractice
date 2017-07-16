@@ -1,1 +1,25 @@
-%h1 I am Index
+.row
+ .container
+  .col-md-8
+   %h3 Your Blog posts
+   %b3/
+   %b3/
+   %b3/
+
+   - Post.all.each do |post|
+    %h3= link_to post.title, post
+    %p= post.content
+    %p= post.company
+
+    %b3/
+    %b3/
+
+   = link_to 'New', new_post_path
+
+
+
+
+
+
+
+
